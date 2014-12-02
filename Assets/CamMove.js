@@ -2,7 +2,7 @@
 var moveMultiplierY : float = 1;
 var clickFrames : int = 0;
 var mouseOrigin : Vector2;
-var transformOrigin : Vector2;
+var transformOrigin : Vector2; // real important
 
 function Update () {
 	if (Input.GetMouseButton(0)){
