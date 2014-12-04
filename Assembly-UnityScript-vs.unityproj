@@ -47,6 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CamMove.js" />
+     <Compile Include="Assets\ChunkTracker.js" />
+     <Compile Include="Assets\DistanceDelete.js" />
+     <Compile Include="Assets\Occupy.js" />
+     <Compile Include="Assets\Spawn.js" />
+     <Compile Include="Assets\findChunk.js" />
      <Compile Include="Assets\followCam.js" />
      <Compile Include="Assets\hexHeight.js" />
      <Compile Include="Assets\tileColor.js" />

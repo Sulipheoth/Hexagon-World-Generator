@@ -10,7 +10,7 @@ function Update () {
 		if (clickFrames == 1){
 			mouseOrigin = Vector2(Input.mousePosition.x / Screen.width, Input.mousePosition.y / Screen.height);
 			transformOrigin = Vector2(transform.position.x, transform.position.z);
-			print(mouseOrigin.y);
+			//print(mouseOrigin.y);
 		}
 		transform.position.x = transformOrigin.x - (((Input.mousePosition.x / Screen.width) - mouseOrigin.x) * moveMultiplierX);
 		transform.position.z = transformOrigin.y - (((Input.mousePosition.y / Screen.height) - mouseOrigin.y) * moveMultiplierY);
