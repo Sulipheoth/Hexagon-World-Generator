@@ -1,6 +1,6 @@
 ﻿var water : UnityEngine.Color;
 var beach : UnityEngine.Color;
-//var land : UnityEngine.Color;
+var land : UnityEngine.Color;
 var jungle : UnityEngine.Color;
 var desert : UnityEngine.Color;
 var wasteland : UnityEngine.Color;
